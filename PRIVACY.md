@@ -88,7 +88,7 @@ collect data from children.
 ## 8. Contact
 
 For privacy inquiries or to exercise your GDPR rights, join our
-[Discord server](https://discord.gg/visentrix) or submit a ticket via the support
+[Discord server](https://discord.gg/denat8G6ze) or submit a ticket via the support
 section on our home page.
 
 ---

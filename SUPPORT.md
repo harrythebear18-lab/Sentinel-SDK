@@ -6,7 +6,7 @@
 |---------|----------|
 | [GitHub Issues](../../issues) | Bugs, feature requests, tracked work |
 | [GitHub Discussions](../../discussions) | Ideas, show-and-tell, open Q&A, community threads |
-| [Discord](https://discord.gg/visentrix) | Quick questions, community help, discussion |
+| [Discord](https://discord.gg/denat8G6ze) | Quick questions, community help, discussion |
 
 ## Before you file
 

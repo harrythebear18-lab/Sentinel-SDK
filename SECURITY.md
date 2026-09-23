@@ -15,7 +15,7 @@ Security fixes ship in new releases. Always run the latest version.
 
 To report a vulnerability:
 
-1. Join our [Discord server](https://discord.gg/visentrix)
+1. Join our [Discord server](https://discord.gg/denat8G6ze)
 2. Send a direct message to a maintainer with:
    - Description of the vulnerability
    - Steps to reproduce
@@ -54,7 +54,7 @@ You will receive a response within 48 hours. If confirmed, we will:
 
 ## Contact
 
-[Discord server](https://discord.gg/visentrix) — DM a maintainer.
+[Discord server](https://discord.gg/denat8G6ze) — DM a maintainer.
 
 ---
 

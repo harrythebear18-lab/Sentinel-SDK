@@ -26,7 +26,7 @@ in-house; community modules extend the cockpit surface.
 - **API/contract requests** — [Feature Request](../../issues/new?template=feature_request.yml) —
   if a module needs a capability the contract doesn't expose, ask
 - **Questions** — [Question template](../../issues/new?template=question.yml),
-  [Discussions](../../discussions), or [Discord](https://discord.gg/visentrix)
+  [Discussions](../../discussions), or [Discord](https://discord.gg/denat8G6ze)
 
 ## Ground rules
 
