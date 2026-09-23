@@ -1,0 +1,16 @@
+Sentinel SDK License (Visentrix Plugin License — VPL)
+
+Copyright (c) 2026 Visentrix. All rights reserved.
+
+1. The SDK (interface declarations, documentation, examples) may be used
+   to develop modules for OSINT Sentinel Workstation.
+
+2. Modules written against this SDK remain the property of their
+   authors. Submission grants Visentrix a license to review, modify, and
+   distribute accepted modules inside Workstation builds.
+
+3. This SDK grants no rights to the Workstation engine, its internals,
+   or its source code. The interface contract is provided as-is.
+
+4. No warranty. The SDK is provided "as is", without warranty of any
+   kind.
