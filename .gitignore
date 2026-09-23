@@ -1,5 +1,15 @@
-node_modules/
+# Build output — binaries ship as GitHub Release assets, never committed
 dist/
+*.exe
+*.dmg
+*.msi
+*.blockmap
+latest.yml
+
+# Deps / OS cruft
+node_modules/
 *.log
-.DS_Store
+.env
+.env.*
 Thumbs.db
+.DS_Store
