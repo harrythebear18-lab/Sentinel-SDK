@@ -1,0 +1,79 @@
+Visentrix Binary License — OSINT Sentinel Workstation
+=====================================================
+
+Copyright (c) 2026 Visentrix. All rights reserved.
+
+This license governs use of the OSINT Sentinel Workstation application
+binaries distributed through this repository's Releases page. Source code
+is not licensed under this document and is not publicly distributed.
+
+1. GRANT OF LICENSE
+
+   Visentrix grants you a non-exclusive, non-transferable license to
+   install and use the OSINT Sentinel Workstation binaries for personal,
+   professional, or internal organizational use, subject to the tier
+   terms below.
+
+2. TIERS
+
+   a. Free Tier. The feature set available at the time of installation
+      remains available indefinitely at no cost.
+
+   b. Trial. Each new release includes a 14-day trial of all features,
+      including premium modules. A fresh trial period is granted with
+      each new version installed.
+
+   c. Licensed (Pro / Enterprise). Premium modules are enabled by a
+      signed license key issued by Visentrix. License keys may be
+      machine-bound and must not be shared, resold, or redistributed.
+
+3. RESTRICTIONS
+
+   You may NOT:
+
+   - Copy, redistribute, sublicense, or repackage the binaries except
+     for backup or internal deployment within your organization
+   - Reverse engineer, decompile, or disassemble the software, except
+     where such restriction is prohibited by applicable law
+   - Remove, alter, or circumvent license validation, machine binding,
+     or feature gating
+   - Extract, reuse, or create derivative works from any component of
+     the software
+   - Offer the software or its capabilities as a hosted or managed
+     service to third parties without a separate commercial agreement
+
+4. DATA
+
+   The software processes and caches data locally on your machine. See
+   PRIVACY.md for the full data-handling policy. No telemetry is sent
+   unless explicitly enabled.
+
+5. UPDATES
+
+   This license applies to all releases of the software unless a release
+   is accompanied by a superseding license. Continued use of updated
+   versions constitutes acceptance of any updated terms.
+
+6. DISCLAIMER OF WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NONINFRINGEMENT. ANALYTICAL OUTPUTS ARE PROVIDED FOR DECISION SUPPORT
+   AND DO NOT CONSTITUTE PROFESSIONAL, LEGAL, OR SAFETY ADVICE.
+
+7. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL VISENTRIX BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+   SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM USE OF THE
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8. TERMINATION
+
+   This license terminates automatically upon breach. On termination you
+   must cease use and delete all copies.
+
+9. CONTACT
+
+   Licensing inquiries: via the project Discord
+   (https://discord.gg/visentrix) or GitHub issues.

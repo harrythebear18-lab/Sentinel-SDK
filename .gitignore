@@ -1,0 +1,16 @@
+# Build output — binaries ship as GitHub Release assets, never committed
+dist/
+*.exe
+*.dmg
+*.msi
+*.blockmap
+latest.yml
+win-unpacked/
+win-arm64-unpacked/
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+*.log
+.env
+.env.*
