@@ -1,3 +1,6 @@
+Check out https://www.sentinal-systems.uk
+
+
 # Sentinel SDK
 
 Module development kit for **OSINT Sentinel Workstation** — write plugins
