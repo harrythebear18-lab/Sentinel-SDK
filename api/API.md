@@ -28,7 +28,8 @@ WS   ws://127.0.0.1:9777/events     → pushed events: { type:"event", topic, ts
 | `scene.setSelection` / `scene.clearSelection` / `scene.describeViewport` | Selection + viewport introspection |
 | `terrain.demSample` / `terrain.demProfile` | Elevation at a point / along a path |
 | `terrain.slopeAnalysis` / `terrain.anomalyAnalysis` | Terrain analysis over a region |
-| `terrain.runoff` / `terrain.canopy` / `terrain.behavior` | Hydrology, vegetation, agent sim |
+| `terrain.runoff` | Rainfall→runoff hydrology. Params: `{ bounds, rainfallMm, durationHours? }` — returns flow paths, pools, flood zones, watershed divides, the flow-accumulation grid, rainfall intensity (mm/hr), and a flash-flood flag when storm duration is below the catchment's time of concentration |
+| `terrain.canopy` / `terrain.behavior` | Vegetation cover, agent sim |
 | `mission.searchZones` / `mission.restPoints` / `mission.routePlan` | SAR planning |
 | `mission.fallRisk` / `mission.remainsCorridor` | Hazard modeling |
 | `mission.tripDerive` / `mission.hikerCalibrate` | Trip params + subject calibration |
@@ -40,6 +41,18 @@ WS   ws://127.0.0.1:9777/events     → pushed events: { type:"event", topic, ts
 | `export.geojson` / `export.kml` | Headless export to file |
 | `api.peers` / `api.revokePeer` | Manage paired devices |
 | `api.methods` | List every available method |
+| `ipc.invoke` / `ipc.send` | IPC passthrough — `{ channel, args }` routed to the app's own handler registry, gated by the same namespace allowlist the preload enforces. Powers the remote thin client |
+
+## Remote thin client (web-remote)
+
+The built workstation UI is served from the API itself — open
+`http://<host>:9777/globe/` in any browser on the LAN (LAN mode requires
+`SENTINEL_API_LAN=1`). The served shell injects `/web-api.js`, which
+provides the same typed `window.api` surface as the desktop preload —
+`invoke`/`send` ride `/rpc` passthrough, `on` subscribes to `/events`,
+and typed arrays cross as base64 markers both directions. First-use 401
+auto-runs the pairing ceremony — approve the device in-app, the client
+stores the token and reconnects.
 
 ## Events
 
